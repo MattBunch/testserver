@@ -5,6 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
     "mysql": "^2.18.1"
   },
   "devDependencies": {},
