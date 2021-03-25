@@ -48,7 +48,7 @@
                 e.preventDefault();
 
                 let xhr = new XMLHttpRequest();
-                xhr.open("POST", "/retrieve");
+                xhr.open("GET", "/retrieve");
                 xhr.setRequestHeader("content-type", "application/json");
                 xhr.onload = function () {
                     console.log(xhr.responseText)

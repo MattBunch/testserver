@@ -23,8 +23,8 @@ app.post("/submit", (req, res) => {
   console.log(req.body);
 });
 
-app.post("/retrieve", (req, res) => {
-  res.send("Got a post/retrieve request");
+app.get("/retrieve", (req, res) => {
+  res.send("Got a get/retrieve request");
 
   console.log("Retrieve received!");
   console.log();
